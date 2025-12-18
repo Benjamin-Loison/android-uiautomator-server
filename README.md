@@ -12,13 +12,13 @@ that we can just write PC side script to write UIAutomator tests.
 
 - Run command:
 
-        $ ./gradlew build
-        $ ./gradlew packageDebugAndroidTest
+      $ ./gradlew build
+      $ ./gradlew packageDebugAndroidTest
 
 - Run the jsonrcp server on Android device
 
-        $ ./gradlew cC
-        $ adb forward tcp:9008 tcp:9008 # tcp forward
+      $ ./gradlew cC
+      $ adb forward tcp:9008 tcp:9008 # tcp forward
 
 # How to use
 
