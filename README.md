@@ -2,7 +2,7 @@
 
 [UIAutomator](http://developer.android.com/tools/testing/testing_ui.html) is a
 great tool to perform Android UI testing, but to do it, you have to write java
-code, compile it, install the jar, and run. It's a complex steps for all
+code, compile it, install the jar, and run. It's a complex step for all
 testers...
 
 This project is to build a light weight jsonrpc server in Android device, so
