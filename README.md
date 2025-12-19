@@ -15,7 +15,7 @@ that we can just write PC side script to write UIAutomator tests.
       $ ./gradlew build
       $ ./gradlew packageDebugAndroidTest
 
-- Run the jsonrcp server on Android device
+- Run the jsonrpc server on Android device
 
       $ ./gradlew cC
       $ adb forward tcp:9008 tcp:9008 # tcp forward
